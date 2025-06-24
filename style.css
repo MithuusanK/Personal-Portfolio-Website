@@ -429,6 +429,13 @@ footer p{
     text-align: center;
 }
 
+.text-container {
+  width: 100%;
+  padding-bottom: 4rem; /* Add space below to push next section down */
+  overflow-wrap: break-word; /* Ensures long words don't break layout */
+  text-align: justify; /* Optional: makes paragraphs look cleaner */
+  box-sizing: border-box; /* Ensures padding doesn't overflow */
+}
 
 
 
